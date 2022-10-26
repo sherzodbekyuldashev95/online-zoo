@@ -20,6 +20,8 @@ header {
     background: #000000;
     height: 80px;
     padding: 14px;
+    position: relative;
+    z-index: 10;
 }
 
 .header-container{
@@ -83,4 +85,84 @@ a.highlighted:focus{
 .credits{
     position: relative;
     left: 438px;
+}
+
+/*Watch animal section*/
+
+#watch-animal{
+    position: relative;
+    bottom: 80px;
+    height: 780px;
+    background-image: url(../../assets/images/giant-panda.png) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* .container{
+    position: relative;
+    top: 92px;
+    left: calc(50% - 465px/2 + 239.5px);
+    z-index: 12;
+} */
+
+.circle{
+    width: 465px;
+    height: 465px;
+    position: relative;
+    top: 92px;
+    left: calc(50% - 465px/2 + 239.5px);
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 50%;
+}
+
+/* .call-to-action{
+    position: absolute;
+    left: calc(50% - 500.31px/2 + 330.15px);
+    top: 166px;
+} */
+
+ h2{
+    position: absolute;
+    left: calc(50% - 500.31px/2 + 330.15px);
+    top: 166px;
+    width: 500.31px;
+    height: 400px;
+    font-weight: 700;
+    font-size: 106.496px;
+    text-transform: uppercase;
+    line-height: 75%;
+    color: #FFF;
+    text-align: center;
+}
+
+.fav {
+    color: #FFEE2E;
+}
+
+.btn1{
+   display: inline-block;
+   width: 298px;
+   height: 54px;
+   background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+   border-radius: 25px;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 140%;
+   text-align: center;
+   text-transform: uppercase;
+   color: #FFF;
+   border: none;
+   position: absolute;
+   left: calc(50% - 298px/2 + 332px);
+   top: 626px;
+   padding: 16px 5px;
+}
+
+.btn1:hover{
+    cursor: pointer;
+    background: #E47209;
+}
+
+.btn1:active{
+    background: #4B9200;
 }
