@@ -1,0 +1,225 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 1600px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+}
+
+.content-container {
+    width: 1161px;
+    margin: 0 auto;
+}
+
+/*HEADER*/
+header {
+    box-sizing: border-box;
+    background: #000000;
+    height: 80px;
+    padding: 14px;
+    position: relative;
+    z-index: 10;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+}
+
+.logo,
+nav,
+.credits {
+    display: inline-block;
+}
+
+.logo{
+    box-sizing: border-box;
+    width: 82px;
+    height: 52px;
+    border: 1px solid #FFF;
+    border-radius: 2px;
+    padding: 3.55px 4.75px;
+}
+
+.logo h1 a {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFF;
+}
+
+nav{
+    margin-left: 63px;
+}
+
+
+nav ul {
+    display: flex;
+    column-gap: 58px
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a, .credits a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 16px;
+}
+
+a:hover {
+    color: #F9804B;
+}
+
+a.highlighted:focus{
+    color: #F9804B;
+}
+
+.credits{
+    position: relative;
+    left: 438px;
+}
+
+/*Watch animal section*/
+
+#watch-animal{
+    position: relative;
+    bottom: 80px;
+    height: 780px;
+    background-image: url(../assets/images/giant-panda.png) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.circle{
+    width: 465px;
+    height: 465px;
+    position: relative;
+    top: 92px;
+    left: calc(50% - 465px/2 + 239.5px);
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 50%;
+}
+
+
+ #watch-animal h2{
+    position: absolute;
+    left: calc(50% - 500.31px/2 + 330.15px);
+    top: 166px;
+    width: 500.31px;
+    height: 400px;
+    font-weight: 700;
+    font-size: 106.496px;
+    text-transform: uppercase;
+    line-height: 75%;
+    color: #FFF;
+    text-align: center;
+}
+
+.fav {
+    color: #FFEE2E;
+}
+
+.btn1{
+   display: inline-block;
+   width: 298px;
+   height: 54px;
+   background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+   border-radius: 25px;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 140%;
+   text-align: center;
+   text-transform: uppercase;
+   color: #FFF;
+   border: none;
+   position: absolute;
+   left: calc(50% - 298px/2 + 332px);
+   top: 626px;
+   padding: 16px 5px;
+}
+
+.btn1:hover{
+    cursor: pointer;
+    background: #E47209;
+}
+
+.btn1:active{
+    background: #4B9200;
+}
+
+/*Backstage section*/
+
+#backstage{
+    height: 403px;
+    position: relative;
+    bottom: 79.56px;
+    margin: 139px 0 180px;
+}
+
+.backstage-layout{
+    display: flex;
+}
+
+
+.backstage-img{
+    display: inline-block;
+    width: 609px;
+    height: 403px;
+}
+
+.backstage-description{
+    display: inline-block;
+    width: 465px;
+    height: 403px;
+    margin-left: 87px;
+}
+
+.backstage-description h2{
+    height: 116px;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58px;
+    margin-bottom: 20px;
+}
+
+.backstage-par1{
+    height: 42px;
+    margin-bottom: 54px;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 400;
+}
+
+.backstage-description h3{
+    width: 217px;
+    height: 29px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.8px;
+    margin-bottom: 34px;
+}
+
+.backstage-par2 {
+    height: 105px;
+    line-height: 22px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.side-image{
+    display: inline-block;
+    width: 220px;
+    height: 605px;
+    position: relative;
+    left: 1380px;
+    bottom: 500px;
+}
