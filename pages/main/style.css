@@ -1,4 +1,4 @@
-* {
+*{
     padding: 0;
     margin: 0;
 }
@@ -98,12 +98,6 @@ a.highlighted:focus{
     background-repeat: no-repeat;
 }
 
-/* .container{
-    position: relative;
-    top: 92px;
-    left: calc(50% - 465px/2 + 239.5px);
-    z-index: 12;
-} */
 
 .circle{
     width: 465px;
@@ -115,13 +109,8 @@ a.highlighted:focus{
     border-radius: 50%;
 }
 
-/* .call-to-action{
-    position: absolute;
-    left: calc(50% - 500.31px/2 + 330.15px);
-    top: 166px;
-} */
 
- h2{
+ #watch-animal h2{
     position: absolute;
     left: calc(50% - 500.31px/2 + 330.15px);
     top: 166px;
@@ -165,4 +154,72 @@ a.highlighted:focus{
 
 .btn1:active{
     background: #4B9200;
+}
+
+/*Backstage section*/
+
+#backstage{
+    height: 403px;
+    position: relative;
+    bottom: 79.56px;
+    margin: 139px 0 180px;
+}
+
+.backstage-layout{
+    display: flex;
+}
+
+
+.backstage-img{
+    display: inline-block;
+    width: 609px;
+    height: 403px;
+}
+
+.backstage-description{
+    display: inline-block;
+    width: 465px;
+    height: 403px;
+    margin-left: 87px;
+}
+
+.backstage-description h2{
+    height: 116px;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58px;
+    margin-bottom: 20px;
+}
+
+.backstage-par1{
+    height: 42px;
+    margin-bottom: 54px;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 400;
+}
+
+.backstage-description h3{
+    width: 217px;
+    height: 29px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.8px;
+    margin-bottom: 34px;
+}
+
+.backstage-par2 {
+    height: 105px;
+    line-height: 22px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.side-image{
+    display: inline-block;
+    width: 220px;
+    height: 605px;
+    position: relative;
+    left: 1380px;
+    bottom: 500px;
 }
