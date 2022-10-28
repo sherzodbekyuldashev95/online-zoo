@@ -141,10 +141,13 @@ a.highlighted:focus{
    text-transform: uppercase;
    color: #FFF;
    border: none;
-   position: absolute;
-   left: calc(50% - 298px/2 + 332px);
-   top: 626px;
    padding: 16px 5px;
+}
+
+.btn1-position{
+    position: absolute;
+    left: calc(50% - 298px/2 + 332px);
+    top: 626px; 
 }
 
 .btn1:hover{
@@ -223,3 +226,145 @@ a.highlighted:focus{
     left: 1380px;
     bottom: 500px;
 }
+
+/*Pet section*/
+
+#pet{
+    height: 1106px;
+    position: relative;
+    bottom: 79.56px;
+    overflow: hidden;
+}
+
+.pet-container{
+    box-sizing: border-box;
+    width: 366px;
+    height: 426px;
+    border: 1px solid #FA6F32;
+    border-radius: 5px;
+    overflow: hidden;
+    transform: scale(1);
+}
+
+
+.pet-image{
+    width: 366px;
+    height: 366px;
+    position: relative;
+    z-index: -1;
+}
+
+.pet-image:hover{
+    transform: scale(1.03);
+    transition: 700ms;
+}
+
+
+.pet-info{
+    display: flex;
+    align-items: center;
+    margin: 8px 12px 14px 16px;
+    background-color: #FFF;
+}
+
+.pet-info .name-geo h2{
+    width: 294px;
+    height: 22px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+.pet-info .name-geo p{
+    width: 294px;
+    height: 18px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.pet-info .food-img img[ src*="banana-bamboo_icon.svg"]{
+    margin-top: 3px;
+    margin-left: 11px;
+    width: 33px;
+    height: 37px;
+}
+
+.pet-info .food-img img[ src*="meet-fish_icon.svg"] {
+    margin-right: 8px;
+    width: 48px;
+    height: 38px;
+}
+
+/*pet section layout*/
+
+.pet-layout{
+    display: flex;
+    gap: 20px 30px;
+    flex-wrap: wrap;
+    height: 872px;
+}
+
+/*pet>arrows*/
+
+button.arrows-left{
+    width: 62px;
+    height: 62px;
+    background: orange;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    top: 403px;
+    bottom: 641px;
+    left: 138px;
+}
+
+button.arrows-right{
+    width: 62px;
+    height: 62px;
+    background: orange;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    top: 403px;
+    bottom: 641px;
+    left: 1398px;
+}
+
+button.state:active{
+    background-color: green;
+}
+
+/* just in case i need a button created with anchor tag
+a .arrows{
+    position: absolute;
+    top: 403px;
+    bottom: 641px;
+    left: 138px;
+} */
+
+.btn-position-2{
+    position: absolute;
+    top: 952px;
+    bottom: 100px;
+    left: 651px;
+}
+
+img.palm{
+    position: absolute;
+    width: 880px;
+    height: 460px;
+    top: 648px;
+    right: 1308px;
+}
+
+img.strelitzia{
+    position: absolute;
+    width: 368px;
+    height: 275px;
+    top: 831px;
+    left: 1232px;
+}
+
+/*dont forget to give animation affect to pet cards*/
