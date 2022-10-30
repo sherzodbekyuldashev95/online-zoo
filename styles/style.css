@@ -14,6 +14,11 @@ body{
     margin: 0 auto;
 }
 
+.section-align {
+    position: relative;
+    bottom: 79.56px;
+}
+
 /*HEADER*/
 header {
     box-sizing: border-box;
@@ -163,8 +168,6 @@ a.highlighted:focus{
 
 #backstage{
     height: 403px;
-    position: relative;
-    bottom: 79.56px;
     margin: 139px 0 180px;
 }
 
@@ -231,8 +234,6 @@ a.highlighted:focus{
 
 #pet{
     height: 1106px;
-    position: relative;
-    bottom: 79.56px;
     overflow: hidden;
 }
 
@@ -380,4 +381,148 @@ img.strelitzia{
     height: 275px;
     top: 831px;
     left: 1232px;
+}
+
+/*feed section*/
+
+#feed-friend{
+    box-sizing: border-box;
+    height: 1004px;
+    background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+    opacity: 0.9;
+    padding: 69px 0 100px 0;
+}
+
+.pick-feed-container{
+    box-sizing: border-box;
+    height: 835px;
+    background: rgba(253, 253, 255, 0.52);
+    border-radius: 20px;
+    padding: 41px 0 0 0;
+}
+
+.pick-feed-container > h2{
+    /* display: inline-block; */
+    width: 463px;
+    height: 58px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    color:#FE9013;
+    margin: 0 auto;
+    /* position: relative; top: 41px; bottom: 736px; left: 350px; right: 347px; */
+}
+
+/*feed-info part*/
+.feed-info .par1{
+    display: inline-block;
+    width: 844px;
+    height: 29px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    color: #333B41;
+    margin: 30px 0 40px 99px;
+}
+
+.format{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 21px;
+    color: #333B41;
+    margin: 0 0 10px 99px;
+}
+
+.feed-info .par2 {
+    width: 1061px;
+    font-weight: 500;
+}
+
+.feed-info .par3 {
+    width: 863px;
+    height: 41px;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+
+.par3 a{
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid #FE9013;
+}
+.par3 a:hover {
+    color: #FE9013;
+    border: none;
+}
+
+
+/*feed-pay part*/
+
+.feed-pay h2{
+    width: 209px;
+    height: 47px;
+    margin: 0 auto 40px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 47px;
+}
+
+.pay-stages{
+    width: 764px;
+    height: 243px;
+    display: flex;
+    margin: 0 auto 60px;
+}
+
+.stage{
+    width: 168px;
+    height: 244px;
+}
+
+.stage .icons{
+    box-sizing: border-box;
+    width: 168px;
+    height: 168px;
+    background-color: #FFF;
+    border: 1px solid #F9804B;
+    border-radius: 5px;
+}
+
+.pos1{
+    padding: 54px 30px;
+}
+
+.pos2{
+    padding: 38px 41px 35px 41px;
+}
+
+.pos3{
+    padding: 48px 21px;
+}
+
+.stage .stage-info{
+    width: 168px;
+    height: 46px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #333B41;
+    margin-top: 30px;
+}
+
+.arrows{
+    box-sizing: border-box;
+    width: 128px;
+    height: 244px;
+    padding: 64px 33px 145px 26px;
+}
+
+.arrows img{
+    width: 69px;
+    height: 35px;
+}
+
+.btn-pos{
+    position: relative;
+    left: 431px;
 }
