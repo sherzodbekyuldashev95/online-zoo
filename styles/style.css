@@ -526,3 +526,153 @@ img.strelitzia{
     position: relative;
     left: 431px;
 }
+
+/*testimonials*/
+#testimonials{
+    box-sizing: border-box;
+    height: 919px;
+    padding-top: 137px;
+    overflow: hidden;
+}
+
+#testimonials h2{
+    height: 47px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 47px;
+    text-align: center;
+    margin-bottom: 47px;
+}
+
+.feedbacks{
+    display: flex;
+    column-gap: 29px;
+}
+
+.feedback-card{
+    box-sizing: border-box;
+    width: 268px;
+    height: 391px;
+    background-color: #F1F3F2;
+    border: 2px solid rgba(254, 189, 171, 0.74);
+    border-radius: 20px;
+    padding: 15px 15px 19px 16px;
+}
+
+.feedback-card .user{
+    display: flex;
+    column-gap: 10px;
+}
+
+.user img{
+    width: 37px;
+    height: 37px;
+}
+
+.personal-info h3{
+    width: 139px;
+    height: 19px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+}
+
+.personal-info .geo-time{
+    display: flex;
+    column-gap: 5px;
+    color: #BDBDBD;
+    margin-bottom: 10px;
+}
+/*this class to avoid repetition*/
+.cor{
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.message{
+    width: 237px;
+    height: 309px;
+    color: #767474;;
+}
+
+/*slider*/
+.slider-container{
+    width: 100%;
+}
+
+.slider{
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    display: block;
+    width: 599px;
+    height: 8px;
+    background: #F5F7F6;
+    /* -webkit-transition: .2s;
+    transition: opacity .2s; */
+    border:0.5px solid rgba(254, 144, 19, 1);
+    border-radius: 5px;
+    margin: 21px auto 0;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 115px;
+    height: 6px;
+    background: rgba(254, 144, 19, 1);
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+
+.slider::-moz-range-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 115px;
+    height: 6px;
+    background: rgba(254, 144, 19, 1);
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+
+.slider-container label{
+    display: none;
+}
+
+/*button*/
+.btn2{
+    margin: 31px 0 199px;
+    display: inline-block;
+    width: 298px;
+    height: 54px;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFF;
+    border: none;
+    padding: 16px 5px;
+}
+
+.btn2:hover {
+    cursor: pointer;
+    background: #E47209;
+}
+
+.btn2:active {
+    background: #4B9200;
+}
+
+#testimonials .leaf{
+    display: inline-block;
+    width: 300px;
+    height: 295px;
+    position: absolute;
+    left: 1354px;
+    top: 722px;
+}
