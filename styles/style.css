@@ -147,7 +147,7 @@ a.highlighted:focus{
 .btn1-position{
     position: absolute;
     left: calc(50% - 298px/2 + 332px);
-    top: 626px; 
+    top: 626px;
 }
 
 .btn1:hover{
@@ -251,20 +251,35 @@ a.highlighted:focus{
     width: 366px;
     height: 366px;
     position: relative;
-    z-index: -1;
 }
 
-.pet-image:hover{
-    transform: scale(1.03);
-    transition: 700ms;
+.pet-container:hover > .pet-image{
+    transform: scale(1.11);
+    transition: 1s;
+    z-index: -2;
 }
 
 
 .pet-info{
+    box-sizing: border-box;
     display: flex;
+    width: 366px;
+    height: 60px;
     align-items: center;
-    margin: 8px 12px 14px 16px;
+    padding: 8px 12px 14px 16px;
     background-color: #FFF;
+    position: absolute;
+    transition-duration: 0;
+}
+
+.pet-container:hover >.pet-info{
+    width: 366px;
+    height: 426px;
+    bottom: 0;
+    padding-left: 16px;
+    color: #FFF;
+    background-color: #000000;
+    transition-duration: 1.5s;
 }
 
 .pet-info .name-geo h2{
@@ -366,5 +381,3 @@ img.strelitzia{
     top: 831px;
     left: 1232px;
 }
-
-/*dont forget to give animation affect to pet cards*/
