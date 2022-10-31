@@ -79,10 +79,22 @@ nav ul li{
     list-style: none;
 }
 
+.highlighted{
+    color: #F9804B ;
+}
+
+ul:hover .highlighted{
+    color: #FFF;
+}
+
 nav ul li a, .credits a{
     text-decoration: none;
     color: #FFF;
     font-size: 16px;
+}
+
+a:active{
+    color: #F9804B;
 }
 
 a:hover {
@@ -94,6 +106,8 @@ a:hover {
     position: relative;
     left: 438px;
 }
+
+
 
 /*Watch animal section*/
 main{
@@ -767,10 +781,19 @@ a.link:hover .smn-logo {
     align-items: flex-end;
 }
 
+.nav-links a.highlight{
+    color: #E47209;
+}
+
+.nav-links:hover a.highlight{
+    color: #FFF;
+}
+
 .nav-links a{
     text-decoration: none;
     color: #FFF;
 }
+
 
 .nav-links a:hover{
     color: rgba(249, 128, 75, 1);
