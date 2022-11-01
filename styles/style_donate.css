@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 1600px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+}
+
+.content-container {
+    width: 1161px;
+    margin: 0 auto;
+}
+
+header {
+    box-sizing: border-box;
+    background: #000000;
+    height: 80px;
+    padding: 14px;
+    position: relative;
+    z-index: 10;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    box-sizing: border-box;
+    width: 82px;
+    height: 52px;
+    border: 1px solid #FFF;
+    border-radius: 2px;
+    padding: 3.55px 4.75px;
+}
+
+.logo h1 a {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFF;
+}
+
+.logo .bamboo {
+    position: relative;
+    bottom: 29px;
+    left: 5px;
+}
+
+nav {
+    margin-left: 63px;
+}
+
+
+nav ul {
+    display: flex;
+    column-gap: 58px
+}
+
+nav ul li {
+    list-style: none;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 16px;
+}
+
+a:active {
+    color: #F9804B;
+}
+
+a:hover {
+    color: #F9804B;
+}
+
+/*background image*/
+
+.panda-background{
+    height: 390px;
+    overflow: hidden;
+    background-image: url(../assets/images/donate/panda_bg.svg);
+}
+
+/*pick-friend*/
+
+.pick-friend-section{
+    box-sizing: border-box;
+    height: 1482px;
+    background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%),
+        linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%),
+        linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);;
+}
+
+.info{
+    color: #FFF;
+}
+
+.info h2{
+    height: 47px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 47px;
+}
+
+.info p{
+    margin-top: 10px;
+    height: 94px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.donation-heading{
+    margin-top: 40px;
+    width: 341px;
+    height: 47px;
+    font-size: 36px;
+    line-height: 47px;
+    font-weight: 400;
+    color: #FE9013;
+}
+
+.pick-feed-container{
+    margin-top: 60px;
+    height: 964px;
+    background: rgba(255, 255, 255, 0.52);
+    border-radius: 20px;
+    padding: 40px 92px 62px;
+}
+
+.pick-feed-content-container{
+    box-sizing: border-box;
+    width: 976px;
+    height: 862px;
+}
+
+.pick-feed-content-container h2{
+    height: 58px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    text-align: center;
+    color: #FE9013;
+}
+
+.pick-feed-content-container p{
+    margin-top: 20px;
+    height: 29px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333B41;
+}
+
