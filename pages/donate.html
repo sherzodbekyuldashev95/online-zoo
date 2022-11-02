@@ -17,7 +17,7 @@
         <div class="content-container">
             <div class="header-container">
                 <div class="logo">
-                    <h1><a href="https://sherzodbekyuldashev95.github.io/online-zoo/">PetStory online</a></h1>
+                    <h1><a href="https://sherzodbekyuldashev95.github.io/online-zoo/">PetStory Online</a></h1>
                     <img src="../assets/images/bamboo.svg" alt="" class="bamboo">
                 </div>
                 <nav>
@@ -37,11 +37,11 @@
     </div>
 
     <div class="pick-friend-section">
-        <div class="content-container">
+        <div class="content-container"> <!--it is for side spacing-->
 
             <div class="info">
                 <h2>THE ZOO HAS OFFICIALLY REOPENED BUT WE STILL NEED YOUR HELP!</h2>
-                <p>Even though the Zoo has been able to reopen, we are at a greatly reduced capacity with educational programs and public
+                <p class="par">Even though the Zoo has been able to reopen, we are at a greatly reduced capacity with educational programs and public
                 and private events cancelled or postponed for additional months. We need you now more than ever to help ensure that we
                 overcome these challenges. We have been actively raising funds in the community, and we are grateful for the generosity.
                 But much more support is still needed, and we need your help! Please consider a gift today – no matter what size – to
@@ -50,22 +50,131 @@
 
             <h2 class="donation-heading">Donation Information</h2>
 
-            <div class="pick-feed-container">
+            <div class="pick-feed-container"> 
 
                 <div class="pick-feed-content-container">
 
                     <h2>Pick and feed a friend</h2>
-                    <p>We know the animals bring you joy, and in these extraordinary times, we’re glad.</p>
+                    <p class="par2">We know the animals bring you joy, and in these extraordinary times, we’re glad.</p>
 
-                    <div class="explainer-image">
-
+                    <div class="explainer-graphic">
+                        <div class="meal-times">
+                            <span class="times">4</span>
+                            <p class="par3">Panda diet for the day.</p>
+                        </div>
+                        <span class="sign">x</span>
+                        <div class="animal-image">
+                            <img src="../assets/images/donate/panda_widget1.svg" alt="panda">
+                        </div>
                     </div>
+
+                    <form class="donation">
+
+                        <div class="progress-bar">
+                            <div class="background"></div>
+                            <div class="progress-line"></div>
+                            <p class="amounts">
+                                <input name="donation" type="radio" id="sum" >
+                                <label for="sum">$5000</label>
+                            </p>
+                        </div>
+
+                        <div class="another-amount-container"> <!--created div just to position dollar sign-->
+                            <input type="number" min="1" max="9999" name="amount" id="amount" placeholder="Another amount">
+                            <label for="amount" class="dollar"><img src="../assets/images/donate/dollar.svg" alt="dollar sign"></label>
+                        </div>
+
+                        <div class="pay-period">
+                            <input type="radio" name="monthly" id="monthly">
+                            <label for="monthly">Monthly</label>
+                            <input type="radio" name="monthly" id="once" class="once" checked>
+                            <label for="once">Once</label>
+                        </div>
+
+                        <button type="button" class="btn1 btn-pos" >feed a friend now</button>
+                    </form>
+
+                    <p class="share">Share with your friends on social networks </p>      
+
                 </div>
+
             </div>
 
         </div>
 
     </div>
 
+    <footer id="footer" class="footer-align">
+
+        <div class="content-container">
+
+            <div class="footer-container">
+
+                <div class="info-1">
+                    <div class="logo logo-pos">
+                        <h1><a href="https://sherzodbekyuldashev95.github.io/online-zoo/">PetStory Online</a></h1>
+                        <img src="../assets/images/bamboo.svg" alt="" class="bamboo">
+                    </div>
+
+                    <button type="button" class="btn2">donate for volunteers
+                    </button>
+
+                    <div class="smn">
+                        <a href="https://www.facebook.com/" class="link">
+                            <div class="smn-logo">
+                                <img src="../assets/images/facebook.svg" alt="facebook logo" class="facebook">
+                            </div>
+                            <p>Facebook</p>
+                        </a>
+
+                        <a href="https://twitter.com/" class="link">
+                            <div class="smn-logo">
+                                <img src="../assets/images/twitter.svg" alt="twitter log" class="twitter">
+                            </div>
+                            <p>Twitter</p>
+                        </a>
+
+                        <a href="https://www.instagram.com/" class="link">
+                            <div class="smn-logo">
+                                <img src="../assets/images/instagram.svg" alt="instagram log" class="instagram">
+                            </div>
+                            <p>Instagram</p>
+                        </a>
+
+                        <a href="https://www.youtube.com/" class="link">
+                            <div class="smn-logo">
+                                <img src="../assets/images/youtube.svg" alt="youtube log" class="youtube">
+                            </div>
+                            <p>Youtube</p>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div class="nav-links">
+                    <a href="https://sherzodbekyuldashev95.github.io/online-zoo/">About</a>
+                    <a href="">Map</a>
+                    <a href="">Zoos</a>
+                    <a href="">Contact us</a>
+                </div>
+
+                <div class="info-2">
+                    <div class="subscription">
+                        <form class="emails-subscr" action="https://www.google.com/">
+                            <label for="emails">Subscribe to our news</label> <br>
+                            <input type="email" id="emails" name="emails" multiple placeholder="Enter your email" required>
+                            <input type="submit" value="Submit">
+                        </form>
+                    </div>
+
+                    <div class="copyright">
+                        <p>Developed by Sherzod Yuldashev</p>
+                        <p>©RSSchool & ©Yem Digital 2022</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
 </body>
 </html>

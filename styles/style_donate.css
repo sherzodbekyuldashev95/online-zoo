@@ -99,6 +99,9 @@ a:hover {
         linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%),
         linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);;
 }
+.pick-friend-section{
+    padding-top: 40px;
+}
 
 .info{
     color: #FFF;
@@ -111,7 +114,7 @@ a:hover {
     line-height: 47px;
 }
 
-.info p{
+.info par{
     margin-top: 10px;
     height: 94px;
     font-weight: 500;
@@ -130,6 +133,7 @@ a:hover {
 }
 
 .pick-feed-container{
+    box-sizing: border-box;
     margin-top: 60px;
     height: 964px;
     background: rgba(255, 255, 255, 0.52);
@@ -153,7 +157,7 @@ a:hover {
     color: #FE9013;
 }
 
-.pick-feed-content-container p{
+.pick-feed-content-container .par2{
     margin-top: 20px;
     height: 29px;
     font-weight: 400;
@@ -162,3 +166,368 @@ a:hover {
     color: #333B41;
 }
 
+
+.explainer-graphic{
+    margin-top: 60px;
+    box-sizing: border-box;
+    /* width: 973px; */
+    height: 247px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.meal-times{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.meal-times .times{
+    display: inline-block;
+    width: 41px;
+    height: 58px;
+    font-size: 72px;
+    font-weight: 500;
+    font-style: 72px;
+    line-height: 58px;
+    color: #000;
+}
+
+.meal-times par3{
+    margin-top: 11px;
+    width: 159px;
+    height: 22px;
+    font-size: 16px;
+    color: #333B41;
+}
+
+.explainer-graphic .sign{
+    width: 14px;
+    height: 14px;
+    margin: 20px 64px 0 11px;
+}
+
+.explainer-graphic .animal-image img{
+    width: 284px;
+    height: 246px;
+}
+
+form.donation{
+    margin-top: 48px;
+}
+
+.progress-bar .amounts{
+    display: flex;
+    flex-direction: column;
+    width: 72px;
+    align-items: center;
+    row-gap: 21px;
+
+}
+
+.progress-bar label{
+    height: 36px;
+    font-size: 26px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #333B41;
+}
+
+.progress-bar .amounts input[type="radio"]{
+
+}
+
+.donation #amount{
+    width: 268px;
+    height: 54px;
+    background: rgba(255, 255, 255, 0);
+    border: 1px solid #929699;
+    border-radius: 2px;
+    padding-left: 9px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #929699;
+    line-height: 22px;
+}
+.another-amount-container{
+    margin-top: 60px;
+}
+
+#amount:focus{
+    outline: none;
+    border: 1px solid #4B9200;
+}
+
+#amount:invalid{
+    outline: none;
+    border: 1px solid red;
+}
+
+#mount:focus::placeholder{
+    color:  #4B9200;
+}
+
+.dollar img{
+    position: relative;
+    width: 10px;
+    height: 20px;
+    color: #929699;
+    right: 20px;
+    top: 3px;
+}
+
+
+/* this is to remover default arrows of input type number in Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.pay-period{
+    margin-top: 6px;
+    text-align: center;
+}
+
+.once{
+    margin-left: 50px;
+}
+
+.btn1{
+    display: inline-block;
+    width: 298px;
+    height: 54px;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 25px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFF;
+    border: none;
+    padding: 16px 5px;
+ }
+
+.btn1:hover{
+    cursor: pointer;
+    background: #E47209;
+}
+
+.btn1:active{
+    background: #4B9200;
+}
+
+.btn-pos{
+    margin-top: 40px;
+    position: relative;
+    left: 342px;
+}
+
+.share{
+    margin-top: 30px;
+    line-height: 22px;
+    color: #333B41;
+    text-align: center;
+}
+
+/*footer*/
+
+#footer{
+    height: 433px;
+    box-sizing: border-box;
+    background-color: #111115;
+    position: relative;
+    z-index: 999;
+    padding-top: 41px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.logo .bamboo{
+    position: relative;
+    bottom: 29px;
+    left: 5px;
+}
+
+.info-1{
+    width: 368px;
+    height: 359px;
+    box-sizing: border-box;
+}
+
+.btn2{
+    display: inline-block;
+    width: 298px;
+    height: 54px;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFF;
+    border: none;
+    padding: 16px 5px;
+}
+.btn2-pos{
+    margin-top: 31px;
+}
+
+.btn2:hover {
+    cursor: pointer;
+    background: #E47209;
+}
+
+.btn2:active {
+    background: #4B9200;
+}
+
+.logo-pos{
+    margin-bottom: 68px;
+}
+
+.smn{
+    margin-top: 44px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.smn .link {
+    width: 111px;
+    height: 26px;
+    display: flex;
+    column-gap: 12px;
+    color: #FFF;
+    align-items: center;
+    text-decoration: none;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+
+.smn-logo{
+    background: rgba(196, 196, 196, 0.5);
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+}
+
+.facebook{
+    width: 8px;
+    height: 16px;
+    padding: 5px 9px;
+}
+
+.twitter, .instagram, .youtube{
+    width: 16px;
+    height: 14px;
+    padding: 6px 5px;
+}
+
+a.link:hover{
+    color: rgba(75, 146, 0, 1);
+}
+
+a.link:hover .smn-logo {
+    background-color: rgba(75, 146, 0, 1);
+}
+
+.nav-links{
+    width: 364px;
+    height: 345px;
+    display: flex;
+    column-gap: 58px;
+    align-items: flex-end;
+}`
+
+.nav-links a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+
+.nav-links a:hover{
+    color: rgba(249, 128, 75, 1);
+}
+
+.info-2{
+    width: 390px;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between ;
+}
+
+form.emails-subscr{
+    margin-left: 5px;
+}
+
+form.emails-subscr label{
+    display: inline-block;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 14px;
+}
+
+form.emails-subscr input[type="email"]{
+    display: inline-block;
+    width: 228px;
+    height: 42px;
+    background-color: #111115;
+    color: #BDBDBD;
+    font-size: 16px;
+    border: 1px solid orange;
+    border-radius: 3px;
+    padding-left: 10px;
+}
+
+form.emails-subscr input[type="submit"]{
+    width: 129px;
+    height: 42px;
+    background-color: #D3D3D3;
+    border: 1px solid #080816;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+form.emails-subscr input[type="email"]:focus{
+    outline: none;
+    border: 1px solid #4B9200;
+}
+
+form.emails-subscr input[type="email"]:focus:invalid{
+    outline: none;
+    border: 1px solid red;
+}
+
+form.emails-subscr input[type="submit"]:hover {
+    color: rgba(75, 146, 0, 1);
+    border-color: rgba(75, 146, 0, 1);
+}
+
+.copyright{
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.copyright p{
+    text-align: right;
+    font-weight: 100;
+}
