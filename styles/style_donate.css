@@ -216,7 +216,44 @@ form.donation{
     margin-top: 48px;
 }
 
-.progress-bar .amounts{
+.progress-bar{
+    box-sizing: border-box;
+    width: 976px;
+}
+
+form.donation .progress-bar .background{
+    position: relative;
+    z-index: 1;
+    width: 976px;
+    height: 27px;
+    background-color: #404950;
+    border-radius: 2px;
+}
+
+form.donation .progress-bar .progress-line{
+    width: 915px;
+    margin: 0 auto;
+    height: 2px;
+    background-color: #72828E;
+    position: relative;
+    bottom: 14.5px;
+    z-index: 1;
+}
+
+
+
+.progress-amount{
+    /* box-sizing: border-box; */
+    width: 915px;
+    display: flex;
+    column-gap: 70px;
+    position: relative;
+    z-index: 1;
+    bottom: 22.5px;
+    /* margin: 0 auto; */
+}
+
+.progress-bar .progress-amount .amounts{
     display: flex;
     flex-direction: column;
     width: 72px;
@@ -225,7 +262,7 @@ form.donation{
 
 }
 
-.progress-bar label{
+.progress-bar .progress-amount label{
     height: 36px;
     font-size: 26px;
     line-height: 36px;
@@ -234,8 +271,13 @@ form.donation{
 }
 
 .progress-bar .amounts input[type="radio"]{
-
+    accent-color: yellow;
 }
+
+.progress-bar .amounts input[type="radio"]:checked~label{
+    color: #FE9013;
+}
+
 
 .donation #amount{
     width: 268px;
@@ -450,7 +492,7 @@ a.link:hover .smn-logo {
     display: flex;
     column-gap: 58px;
     align-items: flex-end;
-}`
+}
 
 .nav-links a{
     text-decoration: none;
